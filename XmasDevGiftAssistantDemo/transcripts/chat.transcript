@@ -1,0 +1,149 @@
+[
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "1",
+    "timestamp": "2018-12-09T21:32:56.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+        "name": "LulaBot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "text": "Hi!",
+    "timestamp": "2018-12-09T21:32:58.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "yo!",
+    "timestamp": "2018-12-09T21:33:00.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "timestamp": "2018-12-09T21:33:00.200Z",
+    "type": "typing",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "text": "Greetings!\r\nWhat would you like to do?\r\n* update - You can update your account\r\n* List - You can list your data\r\n* help - you can get help",
+    "timestamp": "2018-12-09T21:33:03.200Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "text": "I need the bot framework logo.",
+    "timestamp": "2018-12-09T21:33:05.200Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "image/png",
+        "contentUrl": "https://azure.microsoft.com/svghandler/bot-service/?width=600&height=315"
+      },
+      {
+        "contentType": "image/png",
+        "contentUrl": "https://dev.botframework.com/Client/Images/ChatBot-BotFramework.png"
+      }
+    ],
+    "conversation": {
+      "id": "Xi0evMIRJokPUg+bfujDVW14mrc="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "iWYRSfG2L/R91ab+T5ecn1P2GbY=",
+      "name": "Joe",
+      "role": "user"
+    },
+    "from": {
+      "id": "feCFNCKOpzAtVMMV7Mm1l+GUZt0=",
+      "name": "LulaBot",
+      "role": "bot"
+    },
+    "text": "Here you go.",
+    "timestamp": "2018-12-09T21:33:07.200Z",
+    "type": "message",
+    "channelId": "chatdown",
+    "attachmentLayout": "carousel"
+  }
+]

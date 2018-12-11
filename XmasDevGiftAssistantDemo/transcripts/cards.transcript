@@ -1,0 +1,335 @@
+[
+  {
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "1",
+    "timestamp": "2018-12-09T21:41:13.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+        "name": "YoBot",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "from": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "text": "hi! can you show me some cards?",
+    "timestamp": "2018-12-09T21:41:15.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "Sure here are a bunch of cards",
+    "timestamp": "2018-12-09T21:41:17.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "buttons": [
+            {
+              "title": "get started",
+              "type": "imBack",
+              "value": "get started"
+            }
+          ],
+          "title": "hero card",
+          "subtitle": "this is a hero card",
+          "text": "build and connect intelligent bots to interact with your users naturally wherever they are from text/sms to skype slack office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Hero card is a multipurpose card; it primarily hosts a single large image a button along with text content to display on the card.",
+    "timestamp": "2018-12-09T21:41:19.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "buttons": [
+            {
+              "title": "get started value",
+              "type": "imBack",
+              "value": "get started value"
+            }
+          ],
+          "title": "thumbnail card",
+          "subtitle": "this is a thumbnail card",
+          "text": "build and connect intelligent bots to interact with your users naturally wherever they are from text/sms to skype slack office 365 mail and other popular services.",
+          "images": [
+            {
+              "url": "https://sec.ch9.ms/ch9/7ff5/e07cfef0-aa3b-40bb-9baa-7c9ef8ff7ff5/buildreactionbotframework_960.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Thumbnail card is a multipurpose card; it primarily hosts a single small image a button along with text content to display on the card.",
+    "timestamp": "2018-12-09T21:41:21.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.signin",
+        "content": {
+          "buttons": [
+            {
+              "title": "sign-in",
+              "type": "imBack",
+              "value": "sign-in"
+            }
+          ],
+          "title": "botframework sign-in card"
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Sign-In card is a card representing a request to sign in the user.",
+    "timestamp": "2018-12-09T21:41:23.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.animation",
+        "content": {
+          "buttons": [],
+          "title": "animation card",
+          "subtitle": "look at it animate",
+          "autostart": true,
+          "autoloop": true,
+          "image": {
+            "url": "https://docs.microsoft.com/en-us/bot-framework/media/how-it-works/architecture-resize.png"
+          },
+          "media": [
+            {
+              "url": "http://oi42.tinypic.com/1rchlx.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Animation card is a card that's capable of playing animated GIFs or short videos.",
+    "timestamp": "2018-12-09T21:41:25.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.audio",
+        "content": {
+          "buttons": [
+            {
+              "title": "read more",
+              "type": "imBack",
+              "value": "read more"
+            }
+          ],
+          "title": "audio card",
+          "subtitle": "i am your father - star wars: episode v - the empire strikes back",
+          "text": "the empire strikes back (also known as star wars: episode v  the empire strikes back) is a 1980 american epic space opera film directed by irvin kershner. leigh brackett and lawrence kasdan wrote the screenplay with george lucas writing the film's story and serving as executive producer. the second installment in the original star wars trilogy it was produced by gary kurtz for lucasfilm ltd. and stars mark hamill harrison ford carrie fisher billy dee williams anthony daniels david prowse kenny baker peter mayhew and frank oz.",
+          "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/3/3c/sw_-_empire_strikes_back.jpg"
+          },
+          "media": [
+            {
+              "url": "http://www.wavlist.com/movies/004/father.wav"
+            }
+          ]
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "8",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Audio card is a card that is capable of playing an audio file",
+    "timestamp": "2018-12-09T21:41:27.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.video",
+        "content": {
+          "buttons": [
+            {
+              "title": "learn more",
+              "type": "imBack",
+              "value": "learn more"
+            }
+          ],
+          "title": "video card",
+          "subtitle": "big buck bunny by the blender institute",
+          "text": "big buck bunny (code-named peach) is a short computer-animated comedy film by the blender institute part of the blender foundation. like the foundation's previous film elephants dream the film was made using blender a free software application for animation made by the same foundation. it was released as an open-source film under creative commons license attribution 3.0.",
+          "image": {
+            "url": "http://adaptivecards.io/content/cats/1.png"
+          },
+          "media": [
+            {
+              "url": "https://adaptivecardsblob.blob.core.windows.net/assets/adaptivecardsoverviewvideo.mp4"
+            }
+          ],
+          "autostart": true
+        }
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "9",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "The Video card is a card that is capable of playing videos.",
+    "timestamp": "2018-12-09T21:41:29.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.adaptive",
+        "contentUrl": "https://adaptivecards.io/payloads/FlightItinerary.json"
+      }
+    ],
+    "conversation": {
+      "id": "k+mckET9J50dSC+SN9/etyL6NSM="
+    },
+    "id": "10",
+    "recipient": {
+      "id": "loNd2L+nGL1kR8zIevia4Wddrso=",
+      "name": "tom",
+      "role": "user"
+    },
+    "from": {
+      "id": "WShsfn3eNjdvYrZLmoyONxDPIDs=",
+      "name": "YoBot",
+      "role": "bot"
+    },
+    "text": "An adaptive card is a flexible json layout that lets you build up your own card. See http://adaptivecards.io",
+    "timestamp": "2018-12-09T21:41:31.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]

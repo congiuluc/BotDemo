@@ -1,0 +1,389 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "2",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "id": "4f5acf64-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:03+01:00",
+    "recipient": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-12-09T21:28:03.158Z",
+    "from": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "https://dffde980.ngrok.io"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "id": "4f5ec700-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:03+01:00",
+    "recipient": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-12-09T21:28:03.184Z",
+    "from": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "https://dffde980.ngrok.io"
+  },
+  {
+    "type": "message",
+    "text": "hello",
+    "from": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "name": "User"
+    },
+    "locale": "",
+    "textFormat": "plain",
+    "timestamp": "2018-12-09T21:28:06.098Z",
+    "channelData": {
+      "clientActivityId": "1544390883143.5247611414575368.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "id": "511b6b20-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:06+01:00",
+    "recipient": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://dffde980.ngrok.io"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://dffde980.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "recipient": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "role": "user"
+    },
+    "text": "conversationUpdate event detected",
+    "inputHint": "acceptingInput",
+    "replyToId": "4f5ec700-fbf9-11e8-86e1-07b1d95f34b9",
+    "id": "513e8380-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:06+01:00",
+    "timestamp": "2018-12-09T21:28:06.328Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://dffde980.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "recipient": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "role": "user"
+    },
+    "text": "Sorry, it looks like something went wrong.",
+    "inputHint": "acceptingInput",
+    "replyToId": "4f5acf64-fbf9-11e8-86e1-07b1d95f34b9",
+    "id": "514e3af0-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:06+01:00",
+    "timestamp": "2018-12-09T21:28:06.431Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://dffde980.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "recipient": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "role": "user"
+    },
+    "attachmentLayout": "carousel",
+    "inputHint": "acceptingInput",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Ricarica Amazon.it",
+          "subtitle": "Prezzo € 50",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/41MozNISYwL._SL160_.jpg",
+              "alt": "Ricarica Amazon.it"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B00W3WWFD8"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Echo Dot (3ª generazione) - Altoparlante intelligente con integrazione Alexa - Tessuto antracite",
+          "subtitle": "Prezzo € 59.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/41hX%2B2Es%2BvL._SL160_.jpg",
+              "alt": "Echo Dot (3ª generazione) - Altoparlante intelligente con integrazione Alexa - Tessuto antracite"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B0792HCFTG"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Samsung MZ-76E500B Unità SSD Interna 860 EVO, 500 GB, 2.5\" SATA III, Nero/Grigio",
+          "subtitle": "Prezzo € 202.86",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/41qR7C253KL._SL160_.jpg",
+              "alt": "Samsung MZ-76E500B Unità SSD Interna 860 EVO, 500 GB, 2.5\" SATA III, Nero/Grigio"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B078WQT6S6"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Amazon Echo (2ª generazione) - Altoparlante intelligente con integrazione Alexa - Tessuto grigio mélange",
+          "subtitle": "Prezzo € 99.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51Yuu4ytqCL._SL160_.jpg",
+              "alt": "Amazon Echo (2ª generazione) - Altoparlante intelligente con integrazione Alexa - Tessuto grigio mélange"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B079PP49PS"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Samsung MB-MC128GA/EU EVO Plus Scheda MicroSD da 128 GB, UHS-I, Classe U3, fino a 100 MB/s di Lettura, 90 MB/s di Scrittura, Adattatore SD Incluso [Vecchio Modello]",
+          "subtitle": "Prezzo € 95.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/414cS4vku9L._SL160_.jpg",
+              "alt": "Samsung MB-MC128GA/EU EVO Plus Scheda MicroSD da 128 GB, UHS-I, Classe U3, fino a 100 MB/s di Lettura, 90 MB/s di Scrittura, Adattatore SD Incluso [Vecchio Modello]"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B06XFHQGB9"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Pokemon Let's GO Pikachu! - Nintendo Switch",
+          "subtitle": "Prezzo € 59.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51nfx5fFUWL._SL160_.jpg",
+              "alt": "Pokemon Let's GO Pikachu! - Nintendo Switch"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B07DDW4KS4"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Call of Duty: Black Ops IIII - PlayStation 4",
+          "subtitle": "Prezzo € 69.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51uAEz2-3WL._SL160_.jpg",
+              "alt": "Call of Duty: Black Ops IIII - PlayStation 4"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B07FSRBMW2"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "HP 302 Cartuccia Originale Getto d'Inchiostro, Nero + Tricromia",
+          "subtitle": "Prezzo € 36.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51t5YfFY2jL._SL160_.jpg",
+              "alt": "HP 302 Cartuccia Originale Getto d'Inchiostro, Nero + Tricromia"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B01LXLFF6H"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "SanDisk Ultra Scheda di Memoria MicroSDXC da 128 GB e Adattatore, con A1 App Performance, Velocità fino a 100 MB/sec, Classe 10, U1 (Nuova versione)",
+          "subtitle": "Prezzo € 55.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/41LjPhDuATL._SL160_.jpg",
+              "alt": "SanDisk Ultra Scheda di Memoria MicroSDXC da 128 GB e Adattatore, con A1 App Performance, Velocità fino a 100 MB/sec, Classe 10, U1 (Nuova versione)"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B073JYC4XM"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "TP-Link RE200 Ripetitore WiFi, Range Extender Universale, Wi-Fi Dual Band AC750, 750 Mbps, 1 10/100M LAN, 3 Antenne Interne, Access Point Mode, LED Segnale Intelligente",
+          "subtitle": "Prezzo € 54.99",
+          "images": [
+            {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/31wukG4DQDL._SL160_.jpg",
+              "alt": "TP-Link RE200 Ripetitore WiFi, Range Extender Universale, Wi-Fi Dual Band AC750, 750 Mbps, 1 10/100M LAN, 3 Antenne Interne, Access Point Mode, LED Segnale Intelligente"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Compra",
+              "value": "B00KXULGJQ"
+            }
+          ]
+        }
+      }
+    ],
+    "entities": [],
+    "replyToId": "511b6b20-fbf9-11e8-86e1-07b1d95f34b9",
+    "id": "51aed180-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:07+01:00",
+    "timestamp": "2018-12-09T21:28:07.064Z",
+    "locale": ""
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://dffde980.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "2",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "4f526af0-fbf9-11e8-baec-ebc756903921|livechat"
+    },
+    "recipient": {
+      "id": "cce059df-6d68-4f44-a54e-5c8df6f88282",
+      "role": "user"
+    },
+    "text": "Turn 1: You sent 'hello'\n",
+    "inputHint": "acceptingInput",
+    "replyToId": "511b6b20-fbf9-11e8-86e1-07b1d95f34b9",
+    "id": "51d9b210-fbf9-11e8-86e1-07b1d95f34b9",
+    "localTimestamp": "2018-12-09T22:28:07+01:00",
+    "timestamp": "2018-12-09T21:28:07.345Z",
+    "locale": ""
+  }
+]

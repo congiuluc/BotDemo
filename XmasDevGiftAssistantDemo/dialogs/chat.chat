@@ -1,0 +1,19 @@
+user=Joe
+bot=LulaBot
+
+bot: Hi!
+user: yo!
+bot: [Typing][Delay=3000]
+Greetings!
+What would you like to do?
+* update - You can update your account
+* List - You can list your data
+* help - you can get help
+
+user: I need the bot framework logo.
+
+bot:
+Here you go.
+[Attachment=https://azure.microsoft.com/svghandler/bot-service/?width=600&height=315 ]
+[Attachment=https://dev.botframework.com/Client/Images/ChatBot-BotFramework.png ]
+[AttachmentLayout=carousel]
